@@ -7,6 +7,7 @@ ROOT_DIR="$(dirname "$CUR_DIR")"
 # Modify these parameters as needed
 
 SPLIT='mini_val'
+#SPLIT='mini_train'
 
 ##------------------------------------------------------------------------------
 ANN_FILE="/gdrive/dataset/nucoco/annotations/instances_${SPLIT}.json"
