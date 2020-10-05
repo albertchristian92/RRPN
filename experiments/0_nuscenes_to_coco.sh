@@ -11,8 +11,8 @@ NUM_RADAR_SWEEPS=1       # number of Radar sweeps
 USE_SYMLINKS='True'      # use symlinks instead of copying nuScenes images
 
 ##------------------------------------------------------------------------------
-NUSC_DIR="$ROOT_DIR/data/nuscenes"
-OUT_DIR="$ROOT_DIR/data/nucoco"
+NUSC_DIR="/gdrive/dataset/nuscenes"
+OUT_DIR="/gdrive/dataset/nucoco"
 # create symbolic link to the nucoco dataset for Detectron
 ln -s $ROOT_DIR/data/nucoco $ROOT_DIR/detectron/detectron/datasets/data/nucoco
 
