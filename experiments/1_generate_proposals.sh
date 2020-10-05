@@ -9,9 +9,9 @@ ROOT_DIR="$(dirname "$CUR_DIR")"
 SPLIT='mini_val'
 
 ##------------------------------------------------------------------------------
-ANN_FILE="$ROOT_DIR/data/nucoco/annotations/instances_${SPLIT}.json"
-IMGS_DIR="$ROOT_DIR/data/nucoco/${SPLIT}"
-OUT_FILE="$ROOT_DIR/data/nucoco/proposals/proposals_${SPLIT}.pkl"
+ANN_FILE="/gdrive/dataset/nucoco/annotations/instances_${SPLIT}.json"
+IMGS_DIR="/gdrive/dataset/nucoco/${SPLIT}"
+OUT_FILE="/gdrive/dataset/nucoco/proposals/proposals_${SPLIT}.pkl"
 
 echo "INFO: Creating proposals..."
 
