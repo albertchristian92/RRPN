@@ -45,6 +45,11 @@ algorithm.
   cd rrpn
   python -m pip install -r requirements.txt
   ```
+  
+  ```
+  sudo apt install libgl1-mesa-glx
+  pip3 install torch
+  pip3 install --upgrade google-api-python-client
 
 - Set up Detectron Python modules:
 
